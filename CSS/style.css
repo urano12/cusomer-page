@@ -1,0 +1,257 @@
+.main-wrapper {
+    width: 100%;
+}
+
+body {
+    margin-top: 100px;
+}
+
+.main-header {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    left: 0px;
+    top: 0px; 
+    background-color: #f4fd9d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-header .logo {
+    color: #333;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 600;
+    margin-left: 30px;
+
+}
+
+.main-header .logo span{
+    color: #0ca62f;
+}
+
+
+
+.margin-content {
+    width: 100%;
+    margin-top: 100px;
+    padding-top: 100px;
+    min-height: 830px;
+}
+
+.content-top {
+    margin-top: 300px;
+    text-align: center;
+}
+
+.content-top h1 {
+    color: #333;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.content-top p {
+    color: #333;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 600;
+    margin-top: 80px;
+}
+
+.content-top p span {
+    color: #0ca62f;
+}
+
+.content-top h3 {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.main-header nav ul {
+    display: flex;
+}
+
+.main-header nav ul li {
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+.main-header nav ul li a {
+    color: #333;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.main-header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* ここからSearch-list */
+
+.content-search__bg {
+    background-color: #e6ffe6;
+}
+
+
+.contact-form__label {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.contact-form__label > p {
+    width: 10%;
+    background: #000000;
+    font-size: 14px;
+    color: #ffffff;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 4px;
+    text-align: center;
+}
+
+.contact-form__label > input {
+    padding-right: 75%;
+    width:5%;
+}
+
+.contact-form__label > select {
+    padding-right: 74%;
+}
+
+
+.contact-form__submit {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.contact-form__submit :active {
+    background-color: rgb(16, 39, 247);
+    box-shadow: none;
+    position: relative;
+    top: 10px;
+}
+
+.contact-form__submit > input {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 100px;
+}
+
+/* h2はクラスを作らず共通化してしまっている */
+
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    padding-top: 50px;
+    margin-left:30px;
+    
+} 
+/* ここから表示一覧テーブル */
+
+table, th, td {
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  line-height: 1.5;
+}
+
+table.table-child th {
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    background: #3f3f3f;
+    color: #ffffff;
+  }
+
+table.table-child td {
+    background-color: #fff;
+    width: 350px;
+    padding: 10px;
+    vertical-align: top;
+  }
+
+  /* ボタンの色を変えたい */
+table-edit {
+    text-align: center;
+}
+
+table-delete {
+    text-align: center;
+}
+
+
+/* ここまでがページ2（顧客検索画面のCSS） */
+
+/* ここから登録画面 */
+
+.content-sign__bg {
+    background-color :#e6ffe6;
+}
+
+
+
+.contact-form__sign {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.contact-form__sign > p {
+    width: 10%;
+    background: black;
+    font-size: 14px;
+    color: white;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 4px;
+    text-align: center;
+}
+
+.contact-form__sign > input {
+    padding-right: 75%;
+    width:5%;
+}
+
+.contact-form__sign > select {
+    padding-right: 74%;
+}
+
+button.sign-page {
+    text-align: center;
+    background-color: #2ae4f1;
+    color:black;
+    padding: 10px 100px;
+    margin-top: 30px;
+    margin-left: 500px;
+}
+
+button.sign-page:active {
+    background-color: rgb(255, 196, 0);
+    box-shadow: none;
+    position: relative;
+    top: 10px;
+}
+
+    button.cancel {
+    text-align: center;
+    background-color: #f18a2a;
+    color:black;
+    padding: 10px 100px;
+}
+
+button.cancel:active {
+    background-color: rgb(255, 0, 0);
+    box-shadow: none;
+    position: relative;
+    top: 10px;
+}
+
+.error-box {
+    color:#ff0f0f;
+    margin-left: 155px;
+}
