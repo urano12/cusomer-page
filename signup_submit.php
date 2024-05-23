@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>登録完了画面</title>
-    <link href="./css/reset.css" rel="stylesheet" type="text/css" />
-    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+    <link href="./CSS/reset.css" rel="stylesheet" type="text/css" />
+    <link href="./CSS/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <?php

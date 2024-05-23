@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="顧客管理システムトップページです">
     <title>顧客管理システムトップ</title>
-    <link href="./css/reset.css" rel="stylesheet" type="text/css" />
-    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+    <link href="./CSS/reset.css" rel="stylesheet" type="text/css" />
+    <link href="./CSS/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>

@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="顧客検索・一覧ページ">
     <title>顧客検索・一覧画面ページ</title>
-    <link href="./css/reset.css" rel="stylesheet" type="text/css" />
-    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+    <link href="./CSS/reset.css" rel="stylesheet" type="text/css" />
+    <link href="./CSS/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
