@@ -123,16 +123,12 @@
                             <?php
                                 while ($row = $company->fetch_assoc()){
                                     
-                                    ?>
+                            ?>
                                     <option value="<?= $row['id'] ?>"><?=$row['name'] ?></option>
-                                <?php
+                            <?php
                                     }
-                                ?>
-<!-- 
-                            <option value="">選択</option>
-                            <option value="1">○○証券株式会社</option>
-                            <option value="2">○○株式会社</option>
-                            <option value="3">○○有限会社</option> -->
+                            ?>
+
                         
 
                         </select>

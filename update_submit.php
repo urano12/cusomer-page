@@ -20,7 +20,7 @@
                  `tell` = '".$_POST['phone_number']."', `gender` = '".$_POST['gender']."', `birth` = '".$_POST['sign-birthday']."', `company_id` = '".$_POST['company']."',`last_date` = '".date('Y-m-d H:i:s')."'
 				  WHERE `customers`.`id` =  " . $_POST['customers_id'] . ";";
 
-				  var_dump($sql);
+				  
 
         // UPDATE `customers` SET `name` = '山田一郎', `kana` = 'ヤマダイチロウ', `email` = 'aaa@gmail.com', `tell` = '070341111', `gender` = '1', `birth` = '2024-05-01', `company_id` = '2', `last_date` = '2024-05-16 08:15:07' WHERE `customers`.`id` = 17;
 

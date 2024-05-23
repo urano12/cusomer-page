@@ -71,7 +71,7 @@
 
                     <div class="contact-form__sign">
                         <p>生年月日:</p>
-                        <input type="text" id="birthdayID" name="sign-birthday" placeholder="2024/05/09">
+                        <input type="date" id="birthdayID" name="sign-birthday" placeholder="2024/05/09">
 
                     </div>
                     <div id="birth_error_Id" class="error-box"></div>
@@ -80,13 +80,14 @@
                         <p>所属会社:</p>
                         <select name="company" id="companyID">
                             <option value="">選択</option>
-                            <option value="1">○○証券株式会社</option>
-                            <option value="2">○○株式会社</option>
-                            <option value="3">○○有限会社</option>
+                            <option value="1">LINE株式会社</option>
+                            <option value="2">YAHOO株式会社</option>
+                            <option value="3">Google株式会社</option>
                         </select>
                     </div>
                     <div id="company_error_Id" class="error-box"></div>
 
+                    
                     <button class="sign-page" type="submit" onclick="subForm()">
                         <p>登録</p>
                     </button>

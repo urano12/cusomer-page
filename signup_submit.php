@@ -34,13 +34,6 @@
 
     
 
-    // echo $_REQUEST['japan_name'];
-    // echo $_REQUEST['kana_name'];
-    // echo $_REQUEST['mail_addres'];
-    // echo $_REQUEST['phone_number'];
-    // echo $_REQUEST['gender'];
-    // echo $_REQUEST['sign-birthday'];
-    // echo $_REQUEST['company'];
 
 
 
@@ -49,14 +42,7 @@
 
 
 
-    // シンプルなインサート分でしっかりデータベースに登録されているか確認する、データベースに登録されるかを確認
-    // まずは一個一個bindなどして、ユーザーが登録したようになるかを確認する
 
-    // if ($sql -> execute([$_REQUEST['japan_name'], $_REQUEST['kana_name'], $_REQUEST['mail_addres'], $_REQUEST['phone_number'], $_REQUEST['gender'],
-    //     $_REQUEST['sign-birthday'], $_REQUEST['company']])) {
-    //     echo '登録が完了しました。';
-    // } else {
-    //     echo'登録できませんでした。';
 
 // }
 

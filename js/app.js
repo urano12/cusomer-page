@@ -5,7 +5,7 @@ function subForm(){
     var email = document.getElementById("emailID").value;
     var email_pattern =  /^[a-zA-Z0-9_+-]+(\.[a-zA-Z0-9_+-]+)*@([a-zA-Z0-9][a-zA-Z0-9-]*[a-zA-Z0-9]*\.)+[a-zA-Z]{2,}$/;
     var phone = document.getElementById("phoneID").value;
-    var phone_pattern = /^[a-zA-Z0-9_+-]+(\.[a-zA-Z0-9_+-]+)*@([a-zA-Z0-9][a-zA-Z0-9-]*[a-zA-Z0-9]*\.)+[a-zA-Z]{2,}$/;
+    var phone_pattern = /^\d{9,11}$/;;
     var gender = document.getElementsByName("gender");
     var birthday = document.getElementById("birthdayID").value;
     var company = document.getElementById("companyID").value;
@@ -79,7 +79,7 @@ function subForm(){
         document.getElementById("birth_error_Id").innerHTML = "※入力が必要です";
         isRight = false;
     } else {
-        document.getElementById("birthday_error_Id").innerHTML = "";
+        document.getElementById("birth_error_Id").innerHTML = "";
     }
 
     // 所属会社のチェック
@@ -93,8 +93,8 @@ function subForm(){
 
     if (isRight){
         document.getElementById("signupForm").submit();
-    };
+    }
 
     
-}
+};
 
